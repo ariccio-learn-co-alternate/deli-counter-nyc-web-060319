@@ -5,8 +5,10 @@ def line(katz_deli)
     puts "The line is currently empty."
     return
   end
-  puts "The line is currently: "
+  puts "The line is currently:"
+  iter = 1
   katz_deli.each do |person|
-    puts ""
+    puts " #{iter}. #{person}"
+    iter += 1
   end
 end
