@@ -19,5 +19,7 @@ def take_a_number(deli_line, name)
 end
 
 def now_serving(deli_line)
-  puts 
+  if deli_line.empty?
+    
+  end
 end
