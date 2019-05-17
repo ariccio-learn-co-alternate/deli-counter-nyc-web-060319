@@ -5,10 +5,10 @@ def line(deli_line)
     puts "The line is currently empty."
     return
   end
-  puts "The line is currently:"
+  str = "The line is currently:"
   iter = 1
   deli_line.each do |person|
-    puts " #{iter}. #{person}"
+    str += " #{iter}. #{person}"
     iter += 1
   end
 end
