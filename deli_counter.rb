@@ -14,5 +14,6 @@ def line(deli_line)
 end
 
 def take_a_number(deli_line, name)
-  
+  deli_line << name
+  puts "Welcome, #{name}. You are number #{deli_line.length} in line."
 end
