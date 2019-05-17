@@ -11,6 +11,7 @@ def line(deli_line)
     str += " #{iter}. #{person}"
     iter += 1
   end
+  puts str
 end
 
 def take_a_number(deli_line, name)
