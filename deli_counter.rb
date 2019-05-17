@@ -18,4 +18,6 @@ def take_a_number(deli_line, name)
   puts "Welcome, #{name}. You are number #{deli_line.length} in line."
 end
 
-def now_serving
+def now_serving(deli_line)
+  
+end
