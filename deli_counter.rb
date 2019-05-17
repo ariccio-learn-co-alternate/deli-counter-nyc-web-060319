@@ -1,5 +1,5 @@
 # Write your code here.
 
 def line(katz_deli)
-  puts 
+  if katz_deli.empty?() 
 end
