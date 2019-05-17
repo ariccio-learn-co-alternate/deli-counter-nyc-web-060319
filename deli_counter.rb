@@ -7,6 +7,6 @@ def line(katz_deli)
   end
   puts "The line is currently: "
   katz_deli.each do |person|
-    
+    puts ""
   end
 end
